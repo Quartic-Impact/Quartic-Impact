@@ -8,6 +8,9 @@ A heavily modified version of the ImpactJS game engine.
 
 - Choose a name for the game-specific object (e.g. `sc` for CC)
 - Implement Impact `requires` globbing (e.g. `.requires("impact.feature.*")`)
+- Implement `ig.Config` / `_wm` support for showing documentation in Weltmeister
+  - [x] Implement `ig.Config`
+  - [x] Implement displaying documentation (perhaps through some jQuery hover plugin)
 
 ### Classes / Modules 
 - `Vec2`

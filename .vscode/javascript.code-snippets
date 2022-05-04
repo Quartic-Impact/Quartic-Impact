@@ -1,0 +1,7 @@
+{
+  "Weltmeister Documentation": {
+    "prefix": "wmdoc",
+    "body": ["_wm: new ig.Config({", "  _attributes: {", "    ${1}", "  },", "}),"],
+    "description": "Weltmeister Documentation"
+  }
+}

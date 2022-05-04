@@ -4,8 +4,24 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Weltmeister</title>
 	<link rel="stylesheet" type="text/css" href="lib/weltmeister/weltmeister.css"/>
+	<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.13.1/themes/ui-darkness/jquery-ui.css">
 	<script src="lib/weltmeister/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="lib/weltmeister/jquery-ui-1.8.1.custom.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script src="lib/weltmeister/jquery-ui-1.8.1.custom.min.js" type="text/javascript" charset="utf-8"></script> -->
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>				
+	<style>
+		label {
+			display: inline-block;
+			width: 5em;
+		}
+		.ui-tooltip {
+			white-space: pre-line;
+		}
+		.ui-widget-shadow {
+			-webkit-box-shadow: -0px -0px 0px #cccccc !important;
+			box-shadow: -0px -0px 0px #cccccc !important;
+		}
+	</style>
+				
 	<script src="lib/impact/impact.js" type="text/javascript" charset="utf-8"></script>
 	<script src="lib/weltmeister/weltmeister.js" type="text/javascript" charset="utf-8"></script>
 </head>
@@ -14,7 +30,7 @@
 	<span class="headerTitle"></span>
 	<span class="unsavedTitle"></span>
 	<span class="headerFloat">
-		<input type="button" id="levelSave" value="Save" class="button"/>
+		<input title="test" type="button" id="levelSave" value="Save" class="button"/>
 		<input type="button" id="levelSaveAs" value="Save As" class="button"/>
 		<input type="button" id="levelNew" value="New" class="button"/>
 		<input type="button" id="levelLoad" value="Load" class="button"/>
