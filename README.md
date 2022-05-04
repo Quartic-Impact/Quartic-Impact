@@ -2,6 +2,19 @@
 
 A heavily modified version of the ImpactJS game engine.
 
+## TODO
+
+### General tasks
+
+- Choose a name for the game-specific object (e.g. `sc` for CC)
+- Implement Impact `requires` globbing (e.g. `.requires("impact.feature.*")`)
+
+### Classes / Modules 
+- `Vec2`
+- `ig.System` (tick system)
+- `sc.Control`
+- `impact.feature.interact.press-repeater`
+
 ## Attributions
 
 - [ImpactJS](https://impactjs.com), authored by [phoboslab](https://github.com/phoboslab)
